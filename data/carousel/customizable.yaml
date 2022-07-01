@@ -1,9 +1,9 @@
 weight: 4
-title: "Easy to customize"
+title: "Tem um Projeto?"
 description: >
   <ul class="list-style-none">
-    <li>7 preprepared colour variations.</li>
-    <li>Easily to change fonts</li>
+    <li>Nos conte mais sobre seu projeto e iremos ajudar com as tecnologias mais atuias do mercado</li>
+    <font size="1">Na Linky Systems oferecemos serviços com: Qualidade. Preço Justo. Respeito e satisfação dos nossos clientes</font>
   </ul>
-image: "img/carousel/template-easy-code.png"
-href: "https://devcows.github.io/hugo-universal-theme/"
+image: ""
+href: "/contact"
