@@ -1,11 +1,11 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://linkysystems.com/'
 languageCode = 'pt-br'
 title = 'Linky System'
 theme = "hugo-universal-theme"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pt-br"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = "Linky"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -28,35 +28,10 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
+    name       = "Projetos"
+    url        = "/projects"
     weight     = 1
     parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/projects"
-    weight     = 5
-    parent     = "menu.home"
-
 
 [[menu.main]]
     name       = "Blog"
@@ -111,14 +86,14 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Linky"
+    defaultKeywords = ["", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = ""
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    twitter_site = "Linky" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
@@ -166,7 +141,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Nosso objetivo é criar serviços de qualidade satisfazendo nossos clientes e seus usuários..</p>"
-    copyright = "Copyright (c) 2015 - 2016, Linky System; all rights reserved."
+    copyright = "Copyright (c) Since 2016, Linky System; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -248,7 +223,7 @@ pluralizelisttitles = false
     icon = "far fa-file-alt"
     title = "Precisa de mais ?"
     subtitle = "Aqui está a lista de todos os nossos projetos e clientes."
-    link_url = "#"
+    link_url = "/projects"
     link_text = "Dar uma olhada"
 
 [params.clients]

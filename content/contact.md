@@ -3,8 +3,9 @@ title = "Contato"
 id = "contact"
 +++
 
-# Estamos Aqui Para Ajudar
+# Vamos conversar.
+## Me fale mais sobre seu projeto.
 
-Tem um projeto pronto pra sair do papel? estamos aqui para ajudar só basta nos dizer!.
+Estamos aqui para ajudar basta nos dizer sobre seu projeto.
 
-Temos uma equipe preparada para todos os tipos de projetos!.
+Temos uma equipe preparada pra todos os tipos de projetos!.

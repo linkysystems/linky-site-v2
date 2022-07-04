@@ -2056,7 +2056,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #heading-breadcrumbs {
-  background: url('../img/backblog.jpg') center center repeat;
+  background: url('../img/greenbackblog.jpeg') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -2066,7 +2066,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #heading-breadcrumbs h1 {
-  color: #333333;
+  color: white;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
