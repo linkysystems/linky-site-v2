@@ -10,7 +10,7 @@ disqusShortname = "Linky"
 googleAnalytics = ""
 
 # number of words of summarized post content (default 70)
-summaryLength = 70
+summaryLength = 20
 
 # Define the number of posts per page
 paginate = 10
@@ -39,11 +39,11 @@ pluralizelisttitles = false
     url        = "/blog/"
     weight     = 5
 
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 6
+##[[menu.main]]
+##  name       = "FAQ"
+##  identifier = "menu.faq"
+##  url        = "/faq/"
+##  weight     = 6
 
 [[menu.main]]
     identifier = "contact"
@@ -155,11 +155,8 @@ pluralizelisttitles = false
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Linky system.</strong>
-        <br>Rua brazil
-        <br>vmh
-        <br>duque de caxias
-        <br>rio de janeiro
-        <br>brazil
+        <br>Rua brazil, duque de caxias
+        <br>rio de janeiro,
         <strong>Brazil</strong>
       </p>
       """
