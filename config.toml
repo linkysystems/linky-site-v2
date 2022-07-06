@@ -10,7 +10,7 @@ disqusShortname = "Linky"
 googleAnalytics = ""
 
 # number of words of summarized post content (default 70)
-summaryLength = 70
+summaryLength = 20
 
 # Define the number of posts per page
 paginate = 10
@@ -39,11 +39,11 @@ pluralizelisttitles = false
     url        = "/blog/"
     weight     = 5
 
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 6
+##[[menu.main]]
+##  name       = "FAQ"
+##  identifier = "menu.faq"
+##  url        = "/faq/"
+##  weight     = 6
 
 [[menu.main]]
     identifier = "contact"
@@ -60,11 +60,11 @@ pluralizelisttitles = false
     url = "tel:+12 34 567 89 01"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "/"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+#[[menu.topbar]]
+#   weight = 2
+#   name = "GitHub"
+#   url = "/"
+#   pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -150,16 +150,13 @@ pluralizelisttitles = false
 
     disabled_logo = false
     logo_text = "Linky"
-
+    logo_footer = "img/logo_footer.png"
     logo = "img/logoo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Linky system.</strong>
-        <br>Rua brazil
-        <br>vmh
-        <br>duque de caxias
-        <br>rio de janeiro
-        <br>brazil
+        <br>Rua brazil, duque de caxias
+        <br>rio de janeiro,
         <strong>Brazil</strong>
       </p>
       """
