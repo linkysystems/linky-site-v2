@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="col-md-4 col-sm-6">
-            <h1>Logo here</h1>
+            <img src="{{ .Site.Params.logo_footer | relURL }}" alt="{{ .Title }} logo"/>
         </div>
 
         {{ if isset .Site.Params "about_us" }}
