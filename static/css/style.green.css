@@ -274,6 +274,7 @@ ul.list-style-none {
   margin-bottom: 20px;
 }
 
+
 @media (min-width: 1300px) {
   body.boxed {
     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/subtle_zebra_3d.png);
@@ -1103,12 +1104,12 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .panel.sidebar-menu .panel-body label {
-  color: #999999;
+  color: black;
   font-size: 12px;
 }
 
 .panel.sidebar-menu .panel-body label:hover {
-  color: #555555;
+  color: black;
 }
 
 .panel.sidebar-menu ul.nav.category-menu {
