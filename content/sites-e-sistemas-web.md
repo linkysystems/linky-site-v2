@@ -11,5 +11,7 @@ title = "Sites e sistemas Web"
 * **Desenvolvemos sua solução com um gerenciador de conteúdo que lhe dará autonomia e liberdade para editar suas ofertas, acrescentar produtos e serviços, classificá-los, corrigir os erros e trabalhar sem a dependência de um profissional de TI dedicado. Parece difícil, mas nossas plataformas possuem interface simples e fácil de mexer;**
 * **Disponibilizamos um blog para o site de sua empresa. Seguindo a tendência atual com o marketing de conteúdo, escreva sobre o seu negócio, crie valor para o seu produto e compartilhe nas redes sociais, para gerar interesse e fidelização do seu público.**
 
-Converse com um de nossos analistas. Invista no seu melhor para a sua empresa. Seja cliente da **Linky Systems**
+Converse com um de nossos analistas. Invista no seu melhor para a sua empresa. Seja cliente da **Linky Systems** [contate-nos](/contact)
+
+
 
