@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noticias on Linky System</title>
+    <link>https://linkysystems.com/tags/noticias/</link>
+    <description>Recent content in Noticias on Linky System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 22 Jun 2022 21:29:20 +0200</lastBuildDate><atom:link href="https://linkysystems.com/tags/noticias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jornalismo de Dados</title>
+      <link>https://linkysystems.com/blog/2022/06/22/jornalismo-de-dados/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+      
+      <guid>https://linkysystems.com/blog/2022/06/22/jornalismo-de-dados/</guid>
+      <description>Jornalismo de Dados: uma nova face no mercado de trabalho do jornalista Desde a prensa de Gutenberg à internet, o jornalismo sempre teve que se reinventar conforme os avanços nos meios de comunicação para continuar informando da melhor forma possível o seu público.</description>
+    </item>
+    
+    <item>
+      <title>SEO! crescer no google</title>
+      <link>https://linkysystems.com/blog/2022/06/22/seo/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+      
+      <guid>https://linkysystems.com/blog/2022/06/22/seo/</guid>
+      <description>SEO: como ele pode te ajudar a crescer no Google A internet é um ambiente que sempre esteve em constante crescimento, tanto no número de pessoas que cada vez mais têm acesso a ela, como na quantidade de sites, blogs e páginas na web que surgem diariamente.</description>
+    </item>
+    
+  </channel>
+</rss>

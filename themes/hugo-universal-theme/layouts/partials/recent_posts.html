@@ -2,23 +2,19 @@
 {{ if .Site.Params.recent_posts.enable }}
 <section class="bar background-white no-mb">
     <div class="container">
-
         <div class="col-md-12">
             <div class="heading text-center">
                 <h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>
             </div>
-
             <p class="lead">
               {{ .Site.Params.recent_posts.subtitle | markdownify }}
             </p>
-
             <!-- *** BLOG HOMEPAGE *** -->
-
             <div class="row">
                 {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
                 {{ range first 4 $posts.Pages }}
                 <div class="col-md-4 col-sm-6">
-                    <div class="box-image-text blog" style="box-shadow: 2px 2px 5px black;">
+                    <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
                                 {{ if isset .Params "banner" }}
@@ -34,7 +30,6 @@
                                 </p>
                             </div>
                         </div>
-
                         <div class="content">
                             <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                             <p class="author-category">
@@ -58,15 +53,11 @@
                         </div>
                     </div>
                     <!-- /.box-image-text -->
-
                 </div>
                 {{ end }}
-
             </div>
             <!-- /.row -->
-
             <!-- *** BLOG HOMEPAGE END *** -->
-
         </div>
     </div>
     <!-- /.container -->

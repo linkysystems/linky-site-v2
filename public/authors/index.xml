@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on My New Hugo Site</title>
-    <link>http://example.org/authors/</link>
-    <description>Recent content in Authors on My New Hugo Site</description>
+    <title>Authors on Linky System</title>
+    <link>https://linkysystems.com/authors/</link>
+    <description>Recent content in Authors on Linky System</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="http://example.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 22 Jun 2022 21:29:20 +0200</lastBuildDate><atom:link href="https://linkysystems.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>well</title>
+      <link>https://linkysystems.com/authors/well/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+      
+      <guid>https://linkysystems.com/authors/well/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuli</title>
+      <link>https://linkysystems.com/authors/yuli/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+      
+      <guid>https://linkysystems.com/authors/yuli/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Linky System</title>
+    <link>https://linkysystems.com/</link>
+    <description>Recent content on Linky System</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 22 Jun 2022 21:29:20 +0200</lastBuildDate><atom:link href="https://linkysystems.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jornalismo de Dados</title>
+      <link>https://linkysystems.com/blog/2022/06/22/jornalismo-de-dados/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+      <guid>https://linkysystems.com/blog/2022/06/22/jornalismo-de-dados/</guid>
+      <description>Jornalismo de Dados: uma nova face no mercado de trabalho do jornalista Desde a prensa de Gutenberg à internet, o jornalismo sempre teve que se reinventar conforme os avanços nos meios de comunicação para continuar informando da melhor forma possível.</description>
+    </item>
+
+    <item>
+      <title>SEO! crescer no google</title>
+      <link>https://linkysystems.com/blog/2022/06/22/seo/</link>
+      <pubDate>Wed, 22 Jun 2022 21:29:20 +0200</pubDate>
+
+      <guid>https://linkysystems.com/blog/2022/06/22/seo/</guid>
+      <description>SEO: como ele pode te ajudar a crescer no Google A internet é um ambiente que sempre esteve em constante crescimento, tanto no número de pessoas que cada vez mais têm acesso a ela, como na quantidade de sites, blogs e páginas na web que surgem diariamente.</description>
+    </item>
+
+    <item>
+      <title>Consultoria</title>
+      <link>https://linkysystems.com/consultoria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/consultoria/</guid>
+      <description>Em Breve Um time Completo de consultoria para sua empresa onde poderemos oferecer os melhores serviços para a integração da sua empresa na Era da tecnologia </description>
+    </item>
+
+    <item>
+      <title>Contato</title>
+      <link>https://linkysystems.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/contact/</guid>
+      <description>Vamos conversar. Me fale mais sobre seu projeto. Estamos aqui para ajudar basta nos dizer sobre seu projeto.
+Temos uma equipe preparada pra todos os tipos de projetos!</description>
+    </item>
+
+    <item>
+      <title>FAQ</title>
+      <link>https://linkysystems.com/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/faq/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+
+    <item>
+      <title>Projetos</title>
+      <link>https://linkysystems.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/projects/</guid>
+      <description>hello Monitor </description>
+    </item>
+
+    <item>
+      <title>Sistemas</title>
+      <link>https://linkysystems.com/sistemas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/sistemas/</guid>
+      <description>Pequenas e médias empresas buscam diversificar seu negócio e atender ao cliente nos mais diversos dispositivos. O desenvolvimento de aplicativos web ou móveis já é uma realidade para diferentes tipos de negócios Ao mesmo tempo em que os números apontam um forte crescimento no acesso do brasileiro à internet (há uma grande preferência pelo uso de dispositivos móveis, segundo dados da Pesquisa Brasileira de Mídia 2016, publicado pela Secretaria de Comunicação Social do Governo Federal) acompanhamos no mercado um grupo pequeno de ofertas de aplicativos com qualidade.</description>
+    </item>
+
+    <item>
+      <title>Sites e sistemas Web</title>
+      <link>https://linkysystems.com/sites-e-sistemas-web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://linkysystems.com/sites-e-sistemas-web/</guid>
+      <description>Se a internet criou a possibilidade de uma praça pública virtual, quem pretende alavancar seu negócio precisa estar adequado à este novo espaço e cultura.</description>
+    </item>
+
   </channel>
 </rss>

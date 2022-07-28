@@ -26,7 +26,6 @@ pluralizelisttitles = false
     identifier = "menu.home"
     url        = "/"
     weight     = 1
-    
 
 [[menu.main]]
     name       = "Projetos"
@@ -46,11 +45,11 @@ pluralizelisttitles = false
 ##  url        = "/faq/"
 ##  weight     = 6
 
-[[menu.main]]
-    identifier = "contact"
-    name       = "Contato"
-    url        = "/contact/"
-    weight     = 7
+# [[menu.main]]
+#     identifier = "contact"
+#     name       = "Contato"
+#     url        = "/contact/"
+#     weight     = 7
 
 
 # Top bar social links menu
@@ -88,12 +87,12 @@ pluralizelisttitles = false
 [params]
     viewMorePostLink = "/blog/"
     author = "Linky"
-    defaultKeywords = ["", "hugo", "go"]
+    defaultKeywords = ["Tech", "Sites", "WebSites"]
     mainSections = ["blog"]
     defaultDescription = ""
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    facebook_site = "https://www.facebook.com/linkysystems" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "Linky" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
@@ -142,7 +141,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Nosso objetivo é criar serviços de qualidade satisfazendo nossos clientes e seus usuários..</p>"
-    copyright = "Copyright (c) Since 2016, Linky System; all rights reserved."
+    copyright = "Copyright (c) Since 2016, Linky System; all rights reserved.<br>CNPJ: 26.723.048/0001-11"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -157,7 +156,7 @@ pluralizelisttitles = false
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Linky system.</strong>
         <br>From Brazil
-        <br>to the 
+        <br>to the
         <strong>world</strong>
       </p>
       """
@@ -173,7 +172,7 @@ pluralizelisttitles = false
       <a href="mailto:contato@linkysystem.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
-    
+
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = true
