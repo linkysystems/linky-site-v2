@@ -1,0 +1,4 @@
+include:
+  - project: linky-public/devops
+    ref: main
+    file: templates/gitlab-ci.yaml
