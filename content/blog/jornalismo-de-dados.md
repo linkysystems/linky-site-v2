@@ -2,7 +2,7 @@
 title = "Jornalismo de Dados"
 date = "2022-06-22T21:29:20+02:00"
 tags = ["Noticias"]
-categories = ["Fatos"]
+categories = ["Bigdata","Automação"]
 banner = "img/banners/banner-8.jpg"
 authors = ["Yuli"]
 +++
