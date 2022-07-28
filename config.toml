@@ -5,9 +5,9 @@ theme = "hugo-universal-theme"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pt-br"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "Linky"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-89626875-1"
 
 # number of words of summarized post content (default 70)
 summaryLength = 20
@@ -57,26 +57,26 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "https://api.whatsapp.com/send?phone=5521976999890"
+    url = "https://api.whatsapp.com/send?phone=5521960205871"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
-#[[menu.topbar]]
-#   weight = 2
-#   name = "GitHub"
-#   url = "/"
-#   pre = "<i class='fab fa-2x fa-github'></i>"
+[[menu.topbar]]
+  weight = 2
+  name = "GitHub"
+  url = "https://github.com/linkysystems"
+  pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Linkedin"
-    url = "https://www.linkedin.com/company/linky-systems/"
+    url = "https://www.linkedin.com/company/linky-systems"
     pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+# [[menu.topbar]]
+#     weight = 4
+#     name = "Twitter"
+#     url = "http://twitter.com"
+#     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -141,7 +141,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Nosso objetivo é criar serviços de qualidade satisfazendo nossos clientes e seus usuários..</p>"
-    copyright = "Copyright (c) Since 2016, Linky System; all rights reserved.<br>CNPJ: 26.723.048/0001-11"
+    copyright = "Copyright (c) Since 2016, Linky Systems; all rights reserved.<br>Linky Desenvolvimento e instalação de software. - ME<br>CNPJ: 26.723.048/0001-11<br>"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -157,9 +157,10 @@ pluralizelisttitles = false
     address = """<p class="text-uppercase"><strong>Linky system.</strong>
         <br>From Brazil
         <br>to the
-        <strong>world</strong>
-      </p>
-      """
+        <strong>world</strong><br>
+    </p>
+    <p><a href="mailto:contato@linkysystems.com">contato@linkysystems.com</a></p>
+    """
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
