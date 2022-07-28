@@ -1,8 +1,8 @@
 +++
 title = "SEO! crescer no google"
 date = "2022-06-22T21:29:20+02:00"
-tags = ["Noticias"]
-categories = ["Relevantes"]
+tags = ["SEO"]
+categories = ["SEO"]
 banner = "img/banners/seo.png"
 authors = ["Yuli"]
 +++
