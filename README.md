@@ -12,4 +12,3 @@ HUGO_ENV="production" hugo -D
 ## Build with:
 
 - Hugo
-
