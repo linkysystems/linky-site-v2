@@ -4,16 +4,10 @@
   {{ partial "headers.html" . }}
   {{ partial "custom_headers.html" . }}
 </head>
-<body>
-  <div id="all">
-    {{ partial "top.html" . }}
-    {{ partial "nav.html" . }}
-    {{ partial "carousel.html" . }}
-    {{ partial "features.html" . }}
-    <!-- {{ partial "testimonials.html" . }} -->
-    {{ partial "see_more.html" . }}
-    {{ partial "recent_posts.html" . }}
-    {{ partial "clients.html" . }}
+<body class="royal_preloader">
+  <div id="page" class="site">
+    {{ partial "home-header.html" . }}
+    {{ partial "home-content.html" . }}
     {{ partial "footer.html" . }}
   </div>
   {{ partial "scripts.html" . }}
