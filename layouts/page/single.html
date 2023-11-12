@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body class="royal_preloader">
+    <div id="page" class="site">
+        {{ partial "home-header.html" . }}
+        {{ if isset .Params "id" }}
+          {{ partial .Params.id . }}
+        {{ else }}
+          {{ .Content }}
+        {{ end }}
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

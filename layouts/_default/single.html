@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "headers.html" . }}
+  {{ partial "custom_headers.html" . }}
+</head>
+<body class="royal_preloader">
+  <div id="page" class="site">
+    {{ partial "home-header.html" . }}
+    <div class="entry-content">
+      <div class="container">
+        <div class="row">
+          <div class="content-area col-lg-9 col-md-12 col-sm-12 col-xs-12">
+            <article class="blog-post post-box">
+              <div class="entry-media">
+                <div class="post-cat">
+                  <span class="posted-in">
+                    {{ if isset .Params "categories" }}
+                    {{ if gt (len .Params.categories) 0 }}
+                    {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end
+                    }}
+                    <a href="{{ " categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
+                    {{ end }}
+                    {{ end }}
+                  </span>
+                </div>
+                <img src="images/blog1.jpg" alt="">
+                {{ if .Params.banner }}
+                <img class="img-fluid mx-auto d-block" src="{{ .Params.banner | relURL }}" alt="{{ .Title }}">
+                {{ else }}
+                <img class="img-fluid mx-auto d-block" src="{{ " img/placeholder.png" | relURL }}" alt="{{ .Title }}">
+                {{ end }}
+              </div>
+              <div class="inner-post">
+                <div class="entry-header">
+                  <div class="entry-meta">
+                    {{ if isset .Params "date" }}
+                    {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                    {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August"
+                    "September" "October" "November" "December" }}
+                    {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                    {{ end }}
+                    <span class="posted-on"><a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt
+                        }}</a></span>
+                    {{ end }}
+                    <span class="byline">_
+                      {{ if isset .Params "authors" }}
+                      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if
+                      $index }}, {{ end }}<a class="url fn n" href="{{ (printf " %s/%s" ("authors" | relLangURL)
+                        ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                      {{ end }}
+                    </span>
+                  </div>
+                </div>
+                <div class="entry-summary">{{ .Content }}</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

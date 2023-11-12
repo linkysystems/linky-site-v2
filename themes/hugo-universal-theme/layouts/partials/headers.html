@@ -2,7 +2,7 @@
 <meta name="robots" content="all,follow">
 
 {{ $title_plain := .Title | markdownify | plainify }}
-<title>{{ $title_plain }}</title>
+<title>{{ $title_plain }} - Linky Systems</title>
 <meta name="author" content="{{ .Param "author" }}" />
 {{ $keywords := .Site.Params.defaultKeywords | default (slice "" | first 0) }}
 {{ if isset .Params "tags" }}{{ range .Params.tags }}{{ $keywords = $keywords | append . }}{{ end }}{{ end }}

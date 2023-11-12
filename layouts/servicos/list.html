@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+</head>
+<body class="royal_preloader">
+    <div id="page" class="site">
+        {{ partial "home-header.html" . }}
+        {{ partial "pre-list.html" . }}
+        <div class="entry-content">
+            <div class="container">
+                <div class="row">
+                    <div class="content-area col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
+                        {{ range $paginator.Pages }}
+                        <article class="post-box">
+                            <div class="post-inner">
+                                <div class="entry-media">
+                                    <div class="post-cat">
+                                        <span class="posted-in">
+                                            {{ if isset .Params "categories" }}
+                                                {{ if gt (len .Params.categories) 0 }}
+                                                    {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end
+                                                    }}
+                                                    <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
+                                                {{ end }}
+                                            {{ end }}
+                                        </span>
+                                    </div>
+                                    <a href="{{ .Permalink }}">
+                                        {{ if .Params.banner }}
+                                            <img class="img-fluid mx-auto d-block" src="{{ .Params.banner | relURL }}" alt="{{ .Title }}">
+                                        {{ else }}
+                                            <img class="img-fluid mx-auto d-block" src="{{ "img/placeholder.png" | relURL }}" alt="{{ .Title }}">
+                                        {{ end }}
+                                    </a>
+                                </div>
+                                <div class="inner-post">
+                                    <div class="entry-header">
+                                        <div class="entry-meta">
+                                            {{ if isset .Params "date" }}
+                                                {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                                                {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                                    {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                                                {{ end }}
+                                                <span class="posted-on"><a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt
+                                                }}</a></span>
+                                            {{ end }}
+                                            <span class="byline">_
+                                                {{ if isset .Params "authors" }}
+                                                    {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if
+                                                    $index }}, {{ end }}<a class="url fn n" href="{{ (printf " %s/%s" ("authors" | relLangURL)
+                                                        ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                                                {{ end }}
+                                            </span>
+                                        </div>
+                                        <h3 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                    </div>
+                                    <div class="entry-summary the-excerpt">{{ .Summary }}</div>
+                                    <div class="btn-readmore"><a href="{{ .Permalink }}"><i class="flaticon-right-arrow-1"></i> Ler mais</a></div>
+                                </div>
+                            </div>
+                        </article>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+</body>
+</html>

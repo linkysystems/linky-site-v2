@@ -189,7 +189,7 @@ You can also define the menu items that will appear in the top bar. Edit the `[[
     weight = 4
 ```
 
-The `weight` parameter will determine the order of the menu entries. A top level menu item can contain a dropdown with 
+The `weight` parameter will determine the order of the menu entries. A top level menu item can contain a dropdown with
 an optional image, sections and multiple columns of menu items.
 
 To create a single list of menu items in the dropdown, first give your top level menu item unique identifier:
@@ -240,7 +240,7 @@ To display 4 columns of menu items, start using sections. Sections are menu item
     post       = 1
 
 [[menu.main]]
-    name       = "Portfolio"
+    name       = "Portfólio"
     identifier = "section.ap-portfolio"
     url        = ""
     weight     = 1
@@ -273,7 +273,7 @@ To display 4 columns of menu items, start using sections. Sections are menu item
 
 The above example shows a reduced version of the *All Pages* menu item from the example site. As you can see,
 we first create menu items with an identifier starting with `section.`. If you create entries like this, these
-will appear as section headers in your drop down. 
+will appear as section headers in your drop down.
 
 Each of these entries contain values for both the `weight` and `post` attribute. The `post` attribute is hijacked
 to indicate in which column a section will be put in. Within a column, the `weight` value is respected to show the

@@ -1,6 +1,6 @@
 baseURL = 'https://linkysystems.com/'
 languageCode = 'pt-br'
-title = 'Linky System'
+title = 'Linky Systems'
 theme = "hugo-universal-theme"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pt-br"
@@ -22,22 +22,38 @@ pluralizelisttitles = false
 
 # Main menu
 [[menu.main]]
-    name       = "Home"
+    name       = "Início"
     identifier = "menu.home"
     url        = "/"
     weight     = 1
 
 [[menu.main]]
-    name       = "Projetos"
-    url        = "/projects"
-    weight     = 1
-    parent     = "menu.home"
+    identifier = "portfolio"
+    name       = "Portfólio"
+    url        = "/portfolio"
+    weight     = 2
+    # parent     = "menu.home"
+
+[[menu.main]]
+    identifier = "servicos"
+    name       = "Serviços"
+    url        = "/servicos"
+    weight     = 3
+    # parent     = "menu.home"
+
+# [[menu.main]]
+#     identifier = "projects"
+#     name       = "Projetos"
+#     url        = "/projetos"
+#     weight     = 4
+#     # parent     = "menu.home"
+
 
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
-    weight     = 5
+    weight     = 6
 
 ##[[menu.main]]
 ##  name       = "FAQ"
@@ -45,11 +61,11 @@ pluralizelisttitles = false
 ##  url        = "/faq/"
 ##  weight     = 6
 
-# [[menu.main]]
-#     identifier = "contact"
-#     name       = "Contato"
-#     url        = "/contact/"
-#     weight     = 7
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contato"
+    url        = "/contato/"
+    weight     = 7
 
 
 # Top bar social links menu
@@ -88,7 +104,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "Linky"
     defaultKeywords = ["Tech", "Sites", "WebSites"]
-    mainSections = ["blog"]
+    mainSections = ["blog", "servicos", "portfolio", "contato"]
     defaultDescription = ""
 
     # Social media
@@ -154,13 +170,16 @@ pluralizelisttitles = false
     logo = "img/logoo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Linky system.</strong>
+    address = """<p class="text-uppercase"><strong>Linky systems.</strong>
         <br>From Brazil
         <br>to the
         <strong>world</strong><br>
     </p>
     <p><a href="mailto:contato@linkysystems.com">contato@linkysystems.com</a></p>
     """
+
+    whatsappLink = "https://wa.me/5521960205871?text=Oi%2C estou acessando pelo site gostaria de mais informações sobre ..."
+    waDomain = "https://wa.me/5521960205871"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"

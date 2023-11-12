@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "headers.html" . }}
+  {{ partial "custom_headers.html" . }}
+</head>
+<body class="royal_preloader">
+  <div id="page" class="site">
+    {{ partial "home-header.html" . }}
+    <div class="entry-content pt-2">
+      <div class="container">
+        <div class="row">
+          <div class="content-area col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <article class="blog-post post-box">
+              <div class="inner-post pt-0">
+                <div class="entry-summary">{{ .Content }}</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>
